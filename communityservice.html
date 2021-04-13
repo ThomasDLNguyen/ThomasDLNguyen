@@ -61,5 +61,39 @@
         <h1>Community Service</h1>
         <p>It is common knowledge to most high school students nowadays that college is important. They know that to eventually pursue a career that they want, a college degree is often necessary. However, other than this basic understanding, they lack experience on how to apply to and approach college. In 2019, a couple of my friends (Michael and Brian) and I decided to start an organization called<a href="https://admin-studyon.github.io/studyon/#" target="_blank" > Study On</a> to help students close the gap between high school college. Our most extensive program is the "College Initiative" where we help high school seniors apply to college by hosting workshops, essay days, information sessions, and network them with working professionals and college students. Outside of this program, we also host study halls during AP testing season and offer tutoring. We work conjointly with the Youth Ministry at Saint Barbara's Catholic Church, utilizing their facilities and resources.</p>
   
+<!-- Back-to-top button -->
+  <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
+
+  <!-- footer include -->
+  <div w3-include-html="footer.html"></div>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Bootstrap JS Library -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+  <!-- html file include script | used for navbar and footer -->
+  <script src="js/w3data.js"></script>
+  <script>
+    w3IncludeHTML()
+  </script>
+
+  <!-- Local scripts -->
+  <script src="js/main.js"></script>
+
+  <script>
+    $(document).ready(function() {
+
+      $("#navbar-include").load("navbar.html", function() {
+
+        $("#home").removeClass("active");
+        $("#research").addClass("active");
+
+      });
+    });
+  </script>
+
 </body>
+
 </html>
