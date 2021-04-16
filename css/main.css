@@ -71,6 +71,7 @@ h9 {
   /* color: #20364c; */
   color: var(--nd-blue) !important;
   font-weight: 600;
+  font-size:30px;
 }
 h1 {
   margin-bottom: 3rem;
