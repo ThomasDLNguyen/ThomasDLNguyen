@@ -120,7 +120,7 @@ h4, h5, h6 {
 }
 
 #projects .panel-heading.proj-1 {
-  background-image: url(/img/MAE 373 Project.png);
+  background-image: url('img/MAE 373 Project.png');
 }
 #projects .panel-heading.proj-2 {
   background-image: url(https://unsplash.it/300/200);
